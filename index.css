@@ -1,5 +1,14 @@
 #header {
+	 
+}
 
+#nav-bar {
+	width: 100%;	
+	text-align: right;
+	font-size: 23px;
+	background-color: #00FFFF;
+	overflow: auto;
+	position: fixed;
 }
 
 #header-img {
@@ -9,13 +18,7 @@
 	float: left;
 }
 
-#nav-bar {
-	width: 100%;
-	text-align: right;
-	font-size: 23px;
-	background-color: #00FFFF;
-	overflow: auto;
-}
+
 
 .nav-link {
 	float: right;
@@ -30,6 +33,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	padding-top: 100px;
 }
 
 #submit {
@@ -39,6 +43,28 @@
 
 .form-title {
 	text-align: center;
+}
+
+#pfeatures {
+	display: grid;
+	justify-content: center;
+}
+
+#pfeatures .fiturimg {
+	
+	width: 10%;
+	height: 10%;	
+	float: left;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+	padding-right: 30px;
+}
+
+#pfeatures .desc {
+	height: 15px;
+  	width: 100%;
+	padding-left: 5px;
 }
 
 #video {
@@ -51,6 +77,11 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+}
+
+ul {
+	list-style: none;
+	text-align: left;
 }
 
 .a8-1 {
@@ -71,16 +102,21 @@
 }
 
 #footer {
-	float: right;
+	float: left;
 	text-align: right;
-	padding: 30px;
-	width: 100%;
+	padding-top: 20px;
+	width: 100%;	
 	height: 10%;
 	background-color: #00FFFF;
-	overflow: auto;
+	
+}
+.copyright {
+	padding: 10px;
 }
 
 footer a{
-	padding: 10px;
+	padding-left: 20px;
+	margin: 10px;
 	text-decoration: none;
 }
+
